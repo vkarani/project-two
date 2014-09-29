@@ -1,0 +1,48 @@
+
+.container{text-align      : center;
+           font            : 16px "Helvetivca", sans-serif;
+          }
+
+.password{text-align      : center;
+          font            : 36px "Helvetica", sans-serif;
+          color           : blueviolet;
+          background-color: silver;
+          display         : block;
+          margin-left     : auto;
+          margin-right    : auto;          
+          width           : 18em;
+         }
+
+/*<img src="Victor.png" alt="" />body     {background-color: #fafafa;
+         }
+
+
+h1       {text-align      : center;
+          font            : 36px "Helvetivca", sans-serif;
+         }
+
+h2       {font            : 30px "Helvetica",sans-serif;}
+
+h3       {font            : 24px "Helvetica",sans-serif;}
+
+img.displayed {
+          display         : block;
+          margin-left     : auto;
+          margin-right    : auto;
+          width           : 18em 
+         }
+
+.container{
+          display         : block;
+          margin-left     : auto;
+          margin-right    : auto;
+          width           : 20em
+          }
+
+.mybio{   display         : block;
+          margin-left     : auto;
+          margin-right    : auto;
+          width           : 60%;
+          font            : 17px "Helvetica",sans-serif;
+          }
+*/
