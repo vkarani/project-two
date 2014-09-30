@@ -12,3 +12,4 @@ $word_list = Array(
     'Distributor',
     'CPU'
     );
+ $current_word='';
