@@ -12,7 +12,10 @@
      <h1> Victor Karani P2 <br> XKCD Password generator</h1>
        <p class="password">
          <?php  for($i = 0; $i < 5; $i++): ?>  <!-- REPLACE 5 with Number of iterations from the form -->
-          <?=$word_list[0]?>        
+          <?=$word_list[$i]?> 
+          <?php  if($i<4): ?>
+           -
+          <?php endif; ?>        
          <?php endfor; ?>    
        </p>
        <form method="GET" action="index.php">
