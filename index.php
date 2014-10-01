@@ -6,13 +6,12 @@
   <?php require 'logic.php';?>
   <link rel="stylesheet" href="p2.css">
   </head>
-
   <body>
    <div class="container">
      <h1> Victor Karani P2 <br> XKCD Password generator</h1>
        <p class="password">
          <?php  for($i = 0; $i < 5; $i++): ?>  <!-- REPLACE 5 with Number of iterations from the form -->
-          <?php $current_word=array_rand($word_list);?>
+          <?php $current_word=array_rand($word_list);?> 
           <?=$word_list[$current_word]?>
           <?php  if($i<4): ?>
            -
@@ -25,6 +24,6 @@
          <br>	
          <input type='submit' class='btn btn-default' value='Create Another Password'>
        </form>
-   </div>
+   </div>   
   </body>
 </html>
