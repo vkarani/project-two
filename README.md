@@ -1,4 +1,4 @@
-# System Setup/Portfolio
+# XKCD Style password generator
 
 ## Live URL
 <http://p2.digitalwebapplications.com>
@@ -7,11 +7,12 @@
 Project #2 XKCD password generator
 
 ## Demo
-????.
+Will present Demo in my section on 10/9/14
 
 ## Details for teaching team
 No login required.
-The Github links for p2,p3,p4 don't really exist yet. They will be created when those projects are submitted.
+
 
 ## Outside code
 Word lists helpfully provided from http://www.paulnoll.com/Books/Clear-English/.
+I specifically used http://www.paulnoll.com/Books/Clear-English/words-29-30-hundred.html for my list.
