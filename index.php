@@ -1,6 +1,7 @@
+<!DOCTYPE html>
 <html>
   <head>
-  <meta charset="UTF-8">
+  <meta charset='utf-8'>
   <title>Victor Karani P2 XKCD password generator</title>
   <?php require 'logic.php';?>
   <link rel="stylesheet" href="p2.css">
