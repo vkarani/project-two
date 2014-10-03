@@ -31,8 +31,11 @@
 			<label for='add_symbol'>Use Symbols</label>
 			<br>        
          
-         <input type='submit' class='btn btn-default' value='Create Another Password'>
+         <input type='submit' class='btn btn-default' value='Create Another Password'>  
        </form>
+       <br>
+       <br>
+       <img class='image' src='http://imgs.xkcd.com/comics/password_strength.png' alt='xkcd style passwords'>
    </div>   
   </body>
 </html>
