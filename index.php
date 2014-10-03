@@ -15,13 +15,7 @@
           <?php  if($i < ($iterations -1)): ?>
            -
           <?php endif; ?>        
-         <?php endfor; ?> 
-         <?php if($use_number==true): ?>
-			9
-			<?php $display_number="checked"; endif; ?>
-         <?php if($use_symbol==true): ?>
-			&
-			<?php $display_symbol="checked"; endif; ?>
+         <?php endfor; ?>
        </p>
        <form method="GET" action="index.php">
          <label for='number_of_words'># of Words</label>  <!-- Make this more original?-->
@@ -29,12 +23,11 @@
          <br>	
          
          <input type='checkbox' name='add_number' id='add_number' <?=$display_number?> > 
-			<label for='add_number'>Add a number</label>
-			<br>
-			
+			<label for='add_number'>Use Numbers</label>
+			<br>	
 			
 			<input type='checkbox' name='add_symbol' id='add_symbol'<?=$display_symbol?>  > 
-			<label for='add_symbol'>Add a symbol</label>
+			<label for='add_symbol'>Use Symbols</label>
 			<br>        
          
          <input type='submit' class='btn btn-default' value='Create Another Password'>
