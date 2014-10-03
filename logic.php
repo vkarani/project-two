@@ -5,7 +5,7 @@ $use_number=false;
 $display_number="";
 $use_symbol=false;
 $display_symbol="";
-$symbols="!@#$%^&*()_-+="; // a set of random characters to use in the password 
+$symbols="!@#$%^*()_-+="; // a set of random characters to use in the password 
 if(! empty ($_GET)) {
   $iterations = $_GET[number_of_words];
   if(isset($_GET[add_number])) {

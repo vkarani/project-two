@@ -27,7 +27,7 @@
 			<label for='add_number'>Use Numbers</label>
 			<br>	
 			
-			<input type='checkbox' name='add_symbol' id='add_symbol'<?=$display_symbol?>  > 
+			<input type='checkbox' name='add_symbol' id='add_symbol' <?=$display_symbol?>  > 
 			<label for='add_symbol'>Use Symbols</label>
 			<br>        
          
