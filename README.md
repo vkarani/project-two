@@ -15,4 +15,4 @@ Validated css and html on http://validator.w3.org/ as per feedback from P1
 
 ## Outside code
 Word lists helpfully provided from http://www.paulnoll.com/Books/Clear-English/.
-I specifically used http://www.paulnoll.com/Books/Clear-English/words-29-30-hundred.html for my list.
+I specifically used http://www.paulnoll.com/Books/Clear-English/words-29-30-hundred.html for my word list.

@@ -34,7 +34,7 @@ foreach($word_list as &$value){
 	/*Pick a random member of the string and replace it 
 	with a random member of the test string*/
 	if($use_symbol==true){
-		$display_symbol="checked";
+		$display_symbol="checked";//keep the checkbox checked
 		$value_index=rand(0,strlen($value));//pick a random member of the string
 		$random_string_index=rand(0,strlen($symbols));//pick a random member of the random character string
 		$value[$value_index]=$symbols[$random_string_index];//insert random character into string
@@ -43,7 +43,7 @@ foreach($word_list as &$value){
 	/*Pick a random member of the string and
 	Replace it with a random num from 0-9*/
 	if($use_number==true){
-		$display_number="checked";
+		$display_number="checked";//keep checkbox checked
 		$value_index=rand(0,strlen($value));//pick a random member of the string
 	   $value[$value_index]=rand(0,9);//and replace it with a random integer from 0-9
 	}	
