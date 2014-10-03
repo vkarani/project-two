@@ -5,7 +5,9 @@ $use_number=false;
 $display_number="";
 $use_symbol=false;
 $display_symbol="";
-$symbols="!@#$%^*()_-+="; // a set of random characters to use in the password 
+$symbols="!@#$%^*()_-+="; // a set of random characters to use in the password
+ 
+//Check for user input
 if(! empty ($_GET)) {
   $iterations = $_GET[number_of_words];
   if(isset($_GET[add_number])) {
@@ -15,10 +17,12 @@ if(! empty ($_GET)) {
   	$use_symbol=true;
   }
 }
+//Only display 1 to 9 words in the password
 if(($iterations < 1) ||( $iterations > 10)) {
 	$iterations=5;
 }
 
+//Word list processing
 $re = "/\\<li\\>[\\n, ,\\t,\\r]*[a-z]*[\\n, ,\\t,\\r]*\\<\\/li\\>/"; //regular expression, get all between the <li></li> 
 $testfile = file_get_contents('http://www.paulnoll.com/Books/Clear-English/words-29-30-hundred.html');
 preg_match_all($re, $testfile, $match);
@@ -48,6 +52,3 @@ foreach($word_list as &$value){
 	   $value[$value_index]=rand(0,9);//and replace it with a random integer from 0-9
 	}	
 }
- 
- 
- 
